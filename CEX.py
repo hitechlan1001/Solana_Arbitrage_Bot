@@ -7,8 +7,8 @@ class CEX:
     def __init__(self, symbol: str, api_key: str, secret_key: str):
         self.symbol = symbol
         self.base_symbol, self.quote_symbol = self.symbol.split('/')
-        self.api_key = api_key
-        self.secret_key = secret_key
+        self.api_key = "bgrdawsdsd-1073170e-cef0c0a1-d9e1f"
+        self.secret_key = "b4baeb53-f7bb79fd-51ae1847-b46bf"
         self.cex = ccxt.huobi({
             'apiKey': self.api_key,
             'secret': self.secret_key,
